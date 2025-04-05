@@ -361,3 +361,13 @@ timeschedule
   width: 500px;
   margin: auto;
 }
+
+.timeschedule {
+  width: 550px;
+  margin: auto;
+  font-size: 30px;
+}
+
+.timeschedule-content {
+  padding-top: 50px;
+}
