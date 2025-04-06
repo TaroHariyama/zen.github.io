@@ -15,8 +15,8 @@ a:hover {
 共通パーツ
 ================================================*/
 section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .btn {
@@ -209,7 +209,7 @@ form .form-btn {
 }
 
 .store-list {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 1.5;
   text-align: center;
 }
@@ -240,7 +240,24 @@ footer
   display: inline-block;
 }
 
+/*-----------------------------------------------
+timeschedule
+-----------------------------------------------*/
+.timeschedule {
+  margin: auto;
+  width: 320px;
+  padding-top: 30px;
+}
+
+.timeschedule-content {
+  padding-top: 10px;
+}
+
 @media screen and (min-width: 1101px) {
+  section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .inner {
     max-width: 1000px;
     margin: 100px auto;
@@ -318,6 +335,12 @@ footer
     font-size: 25px;
   }
 
+  .store-list {
+    font-size: 38px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
   .timeschedule {
     margin: auto;
     width: 700px;
@@ -326,6 +349,7 @@ footer
 
   .timeschedule-content {
     font-size: 35px;
+    padding-top: 50px;
   }
 }
 
@@ -342,11 +366,6 @@ footer
   }
 }
 /*# sourceMappingURL=style.css.map */
-
-
-/*-----------------------------------------------
-timeschedule
------------------------------------------------*/
 
 .guid {
   text-align: center;
@@ -365,8 +384,4 @@ timeschedule
 .twitter {
   width: 500px;
   margin: auto;
-}
-
-.timeschedule-content {
-  padding-top: 50px;
 }
