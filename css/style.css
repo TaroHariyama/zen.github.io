@@ -121,7 +121,7 @@ profile
 aeru
 -----------------------------------------------*/
 .aeru {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .aeru-container {
@@ -139,13 +139,13 @@ aeru
 zen
 -----------------------------------------------*/
 .zen {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 100%;
-  text-align: center;
 }
 
 .zen-text {
   line-height: 2;
+  text-align: center;
 }
 
 /*-----------------------------------------------
@@ -265,6 +265,16 @@ timeschedule
   .inner-spOnly {
     max-width: none;
     margin: 0;
+  }
+  .zen {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .zen-text {
+    text-align: center;
+  }
+  .aeru {
+    margin-top: 100px;
   }
   .sec-title {
     font-size: 48px;
