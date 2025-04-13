@@ -88,6 +88,12 @@ header
   /* background-color: #767953; */
 }
 
+.notice {
+  text-align: center;
+  font-size: 36px;
+  line-height: normal;
+}
+
 /*-----------------------------------------------
 profile
 -----------------------------------------------*/
@@ -401,6 +407,10 @@ timeschedule
 
   .access-img {
     max-width: 1200px;
+  }
+
+  .access-img-route {
+    max-width: 600px;
   }
 
   .access-info-container {
