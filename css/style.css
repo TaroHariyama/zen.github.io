@@ -44,6 +44,10 @@ section {
   padding: 25px 50px;
 }
 
+span {
+  color: rgb(255, 0, 0);
+}
+
 .emphasis-frame {
   margin: 0 auto;
   padding: 0px 25px 25px 25px;
